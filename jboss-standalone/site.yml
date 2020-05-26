@@ -1,7 +1,7 @@
 ---
 # This playbook deploys a simple standalone JBoss server.
 
-- hosts: appservers-group
+- hosts: 10.74.255.125
 
   roles:
     - jboss-standalone
